@@ -1,0 +1,39 @@
+/* Gallery Page */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    /* margin-top: 150px; */
+    margin-inline: 50px;
+}
+
+.gallery-container > .photo {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /* width: 180px;
+    height: 250px; */
+    /* overflow: hidden; */
+}
+
+.gallery-container > .photo-academic {
+    width: 180px;
+    height: 250px;
+}
+
+.gallery-container > .photo-certificate {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.gallery-container > .photo:hover {
+    border: 2px solid #6c5b7c;
+    transform: scale(1.1);
+}
+
+.gallery-container > .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
