@@ -168,5 +168,5 @@ a {
 
 a:hover {
   color: #ff4d4d;
-  font-size: larger;
+  /* font-size: larger; */
 }
